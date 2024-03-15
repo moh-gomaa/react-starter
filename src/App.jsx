@@ -1,5 +1,6 @@
 import { Fruits } from "./components/Fruits";
 import Hello from "./components/Hello";
+import ConditionalComponent from "./components/conditional/ConditionalComponent";
 
 function App() {
   const person = {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Hello person={person} />
       <Fruits />
+      <ConditionalComponent />
     </div>
   );
 }
