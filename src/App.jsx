@@ -1,6 +1,4 @@
-import { Fruits } from "./components/Fruits";
-import Hello from "./components/Hello";
-import ConditionalComponent from "./components/conditional/ConditionalComponent";
+import Counter from "./Counter";
 
 function App() {
   const person = {
@@ -11,9 +9,10 @@ function App() {
   };
   return (
     <div className="App">
-      <Hello person={person} />
+      {/* <Hello person={person} />
       <Fruits />
-      <ConditionalComponent />
+      <ConditionalComponent /> */}
+      <Counter />
     </div>
   );
 }
