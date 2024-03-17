@@ -1,4 +1,8 @@
 import Counter from "./Counter";
+import Form from "./components/Form";
+import { Fruits } from "./components/Fruits";
+import Hello from "./components/Hello";
+import ConditionalComponent from "./components/conditional/ConditionalComponent";
 
 function App() {
   const person = {
@@ -9,10 +13,19 @@ function App() {
   };
   return (
     <div className="App">
-      {/* <Hello person={person} />
+      <Hello person={person} />
+      <hr></hr>
+
       <Fruits />
-      <ConditionalComponent /> */}
+      <hr></hr>
+
+      <ConditionalComponent />
+      <hr></hr>
+
       <Counter />
+      <hr></hr>
+
+      <Form />
     </div>
   );
 }
